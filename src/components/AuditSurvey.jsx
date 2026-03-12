@@ -34,11 +34,11 @@ export default function AuditSurvey({ onClose }) {
   };
 
   return (
-    <div className="fixed inset-0 z-[100] bg-background flex flex-col items-center justify-center overflow-y-auto p-6">
-      <div className="absolute top-6 right-6">
+    <div className="fixed inset-0 z-[100] bg-background flex flex-col items-center overflow-y-auto p-4 py-20 md:p-6 md:py-24">
+      <div className="fixed top-4 right-4 md:top-6 md:right-6 z-50">
         <button
           onClick={onClose}
-          className="text-dark hover:text-accent transition-colors p-2"
+          className="text-dark hover:text-accent transition-colors p-2 bg-background/50 backdrop-blur rounded-full"
           aria-label="Close"
         >
           <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -47,7 +47,7 @@ export default function AuditSurvey({ onClose }) {
         </button>
       </div>
 
-      <div className="max-w-xl w-full bg-white rounded-[2rem] shadow-xl p-8 md:p-12 border border-dark/10">
+      <div className="max-w-xl w-full bg-white rounded-[2rem] shadow-xl p-6 md:p-12 border border-dark/10 my-auto relative">
         {submitted ? (
           <div className="text-center py-12">
             <div className="w-16 h-16 bg-[#e0fe9c] rounded-full flex items-center justify-center mx-auto mb-6">
