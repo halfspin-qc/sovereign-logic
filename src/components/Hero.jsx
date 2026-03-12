@@ -48,8 +48,8 @@ export default function Hero({ onBookClick }) {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
             </span>
-            <span className="absolute inset-0 z-0 bg-white translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300 ease-out" />
-            <span className="absolute inset-0 z-0 bg-white text-dark top-0 left-0 w-full h-full translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300 ease-out flex items-center justify-center gap-2 font-bold pointer-events-none">
+            <span className="absolute inset-0 z-0 bg-dark translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300 ease-out" />
+            <span className="absolute inset-0 z-0 bg-dark text-white top-0 left-0 w-full h-full translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300 ease-out flex items-center justify-center gap-2 font-bold pointer-events-none">
               Book a 15-min audit
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
