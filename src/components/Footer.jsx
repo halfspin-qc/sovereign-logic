@@ -21,18 +21,42 @@ export default function Footer() {
 
         <div className="flex flex-col gap-4">
           <h4 className="font-heading font-bold tracking-widest text-xs text-primary/50 mb-4">PLATFORM</h4>
-          <a href="#" className="font-sans text-sm hover:text-accent transition-colors">Risk Assessment</a>
-          <a href="#" className="font-sans text-sm hover:text-accent transition-colors">Compliance Verification</a>
-          <a href="#" className="font-sans text-sm hover:text-accent transition-colors">Infrastructure Scanner</a>
-          <a href="#" className="font-sans text-sm hover:text-accent transition-colors">Sovereign Layer Pricing</a>
+          <div className="flex items-center gap-3 opacity-50 pointer-events-none">
+            <a href="#" className="font-sans text-sm">Risk Assessment</a>
+            <span className="text-[9px] font-sans bg-primary/10 text-primary/70 px-2 py-0.5 rounded-full uppercase tracking-wider">Coming soon</span>
+          </div>
+          <div className="flex items-center gap-3 opacity-50 pointer-events-none">
+            <a href="#" className="font-sans text-sm">Compliance Verification</a>
+            <span className="text-[9px] font-sans bg-primary/10 text-primary/70 px-2 py-0.5 rounded-full uppercase tracking-wider">Coming soon</span>
+          </div>
+          <div className="flex items-center gap-3 opacity-50 pointer-events-none">
+            <a href="#" className="font-sans text-sm">Infrastructure Scanner</a>
+            <span className="text-[9px] font-sans bg-primary/10 text-primary/70 px-2 py-0.5 rounded-full uppercase tracking-wider">Coming soon</span>
+          </div>
+          <div className="flex items-center gap-3 opacity-50 pointer-events-none">
+            <a href="#" className="font-sans text-sm">Sovereign Layer Pricing</a>
+            <span className="text-[9px] font-sans bg-primary/10 text-primary/70 px-2 py-0.5 rounded-full uppercase tracking-wider">Coming soon</span>
+          </div>
         </div>
 
         <div className="flex flex-col gap-4">
           <h4 className="font-heading font-bold tracking-widest text-xs text-primary/50 mb-4">LEGAL</h4>
-          <a href="#" className="font-sans text-sm hover:text-accent transition-colors">Privacy Policy</a>
-          <a href="#" className="font-sans text-sm hover:text-accent transition-colors">Terms of Service</a>
-          <a href="#" className="font-sans text-sm hover:text-accent transition-colors">Data Residency</a>
-          <a href="#" className="font-sans text-sm hover:text-accent transition-colors">Contact Support</a>
+          <div className="flex items-center gap-3 opacity-50 pointer-events-none">
+            <a href="#" className="font-sans text-sm">Privacy Policy</a>
+            <span className="text-[9px] font-sans bg-primary/10 text-primary/70 px-2 py-0.5 rounded-full uppercase tracking-wider">Coming soon</span>
+          </div>
+          <div className="flex items-center gap-3 opacity-50 pointer-events-none">
+            <a href="#" className="font-sans text-sm">Terms of Service</a>
+            <span className="text-[9px] font-sans bg-primary/10 text-primary/70 px-2 py-0.5 rounded-full uppercase tracking-wider">Coming soon</span>
+          </div>
+          <div className="flex items-center gap-3 opacity-50 pointer-events-none">
+            <a href="#" className="font-sans text-sm">Data Residency</a>
+            <span className="text-[9px] font-sans bg-primary/10 text-primary/70 px-2 py-0.5 rounded-full uppercase tracking-wider">Coming soon</span>
+          </div>
+          <div className="flex items-center gap-3 opacity-50 pointer-events-none">
+            <a href="#" className="font-sans text-sm">Contact Support</a>
+            <span className="text-[9px] font-sans bg-primary/10 text-primary/70 px-2 py-0.5 rounded-full uppercase tracking-wider">Coming soon</span>
+          </div>
         </div>
 
       </div>

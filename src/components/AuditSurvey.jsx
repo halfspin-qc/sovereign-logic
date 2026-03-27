@@ -5,6 +5,10 @@ export default function AuditSurvey({ onClose }) {
   const [formData, setFormData] = useState({
     name: '',
     company: '',
+    companyEmail: '',
+    industry: '',
+    workloadHosting: '',
+    auditConcern: '',
     concern: '',
     deadline: '',
     catalyst: []
